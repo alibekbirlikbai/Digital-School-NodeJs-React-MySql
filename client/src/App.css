@@ -1,0 +1,115 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.information label {
+  font-size: 20px;
+}
+
+
+.information h1 {
+  padding: 20px;
+
+  border-bottom: 3px solid black;
+}
+
+.information button {
+  font-size: 20px;
+}
+
+
+.divide {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.divide a {
+  font-size: 35px;
+}
+
+
+
+
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+
+}
+
+ button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+} 
+
+ button:hover {
+  cursor: pointer;
+}
+
+
+
+
+/* -------------- Login Form (Wrong username/password) -------------- */
+.information p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+
+/* --------- List ------- */
+table, th {
+  border-collapse: collapse;
+
+  font-size: 25px;
+
+  margin-top: 30px;
+}
+th {
+  padding: 5px 60px;
+  padding-left: 0;
+
+  border-bottom: 2px solid black;
+}
+
+
+th:last-child {
+  padding-right: 40px;
+}
+
+td button {
+    padding: 10px;
+
+    background-color: red;
+}
+
+.list button {
+  margin-left: 30px;
+}
+
+#logout {
+  margin-left: 0;
+}
+
+
+
+
+.hidden {
+  display: none;
+}
