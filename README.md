@@ -19,107 +19,71 @@
 - HTML
 - CSS
 
-### Database:
+## Database:
 
 2 tables:
 
 - Users: Хранит данные преподавателей (users), {username, password}.
 - Students: Хранит данные студентов (students), {name, surname, midterm, endterm, final, gpa}.
 
-<br/>
-
----
-
 ## 1.Чтобы скачать с гитхаба проект запускаем команду:
 
-### `git clone https://github.com/alibekbirlikbai/Digital-School-React-MySql-NodeJs.git`
-
-<br/>
-
----
+`git clone https://github.com/alibekbirlikbai/Digital-School-React-MySql-NodeJs.git`
 
 ## 2.Запускаем Client:
 
-### 2.1.Переходим в папку client:
+# 2.1.Переходим в папку client:
 
-### `cd client`
+`cd client`
 
-<br/>
+# 2.2.Далее в терминале вводим команды:
 
-### 2.2.Далее в терминале вводим команды:
+`npm install`
 
-### `npm install`
+`npm install react-couter-dom`
 
-### `npm install react-couter-dom`
+`npm install axios`
 
-### `npm install axios`
+# 2.3.Для запуска react приложения вводим команду:
 
-<br/>
-
-### 2.3.Для запуска react приложения вводим команду:
-
-### `npm start`
-
-<br/>
-
----
+`npm start`
 
 ## 3.Запускаем Server:
 
-### 3.1.Переходим в папку server:
+# 3.1.Переходим в папку server:
 
-### `cd server`
+`cd server`
 
-<br/>
+# 3.2.Далее в терминале вводим команды:
 
-### 3.2.Далее в терминале вводим команды:
+`npm install mysql express`
 
-### `npm install mysql express`
+`npm install cors`
 
-### `npm install cors`
+# 3.3.Для запуска сервера вводим команду:
 
-<br/>
-
-### 3.3.Для запуска сервера вводим команду:
-
-### `node .\index.js`
-
-<br/>
-
----
+`node .\index.js`
 
 ## 4.Ждём, когда запуститься сервер. После запуска сервера, заходим в браузере по адресу:
 
-### `http://localhost:3000/`
+`http://localhost:3000/`
 
-<br/>
+# 4.1.Видим форму Аутентификации. Далее заходим в 'Registration' по адресу:
 
-### 4.1.Видим форму Аутентификации. Далее заходим в 'Registration' по адресу:
+`http://localhost:3000/registration-page`
 
-### `http://localhost:3000/registration-page`
+# 4.2.Регистрируемся, нажимаем на 'Registration' и попадаем на страницу списка студентов ('List of Students') по адресу:
 
-<br/>
+`http://localhost:3000/student-list`
 
-### 4.2.Регистрируемся, нажимаем на 'Registration' и попадаем на страницу списка студентов ('List of Students') по адресу:
+# 4.3.Далее если мы хотим `"Добавить"` нового студента мы должны нажать на кнопку 'Add new Student', тогда нас перенаправит на страницу 'Add new Student' по адресу:
 
-### `http://localhost:3000/student-list`
+`http://localhost:3000/add-student`
 
-<br/>
+# 4.4.Заполняем анкету, нажимаем на кнопку 'Add', после чего нас занова перенаправит на страницу 'List of Students' с обновленной таблицей студентов.
 
-### 4.3.Далее если мы хотим `"Добавить"` нового студента мы должны нажать на кнопку 'Add new Student', тогда нас перенаправит на страницу 'Add new Student' по адресу:
+# 4.5.На странице 'List of Students', также можно `"Удалить"` данные определенного Студента нажав на кнопку 'Delete'(красная).
 
-### `http://localhost:3000/add-student`
+# 4.6.Также на странице 'List of Students', можно выйти из аккаунта нажав на кнопку 'logout', после чего нас переноправит обратно на главную страницу Аутентификации.
 
-<br/>
-
-### 4.4.Заполняем анкету, нажимаем на кнопку 'Add', после чего нас занова перенаправит на страницу 'List of Students' с обновленной таблицей студентов.
-
-<br/>
-
-### 4.5.На странице 'List of Students', также можно `"Удалить"` данные определенного Студента нажав на кнопку 'Delete'(красная).
-
-<br/>
-
-### 4.6.Также на странице 'List of Students', можно выйти из аккаунта нажав на кнопку 'logout', после чего нас переноправит обратно на главную страницу Аутентификации.
-
-### 4.7.Теперь мы можем авторизоваться с помощью введенных нами {username} и {password} при Регистрации.
+# 4.7.Теперь мы можем авторизоваться с помощью введенных нами {username} и {password} при Регистрации.
