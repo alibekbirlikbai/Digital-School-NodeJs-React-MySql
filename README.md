@@ -25,7 +25,7 @@
 
 - Users: Хранит данные преподавателей (users), {username, password}.
 - Students: Хранит данные студентов (students), {name, surname, midterm, endterm, final, gpa}.
-
+---
 ## 1.Чтобы скачать с гитхаба проект запускаем команду:
 
 `git clone https://github.com/alibekbirlikbai/Digital-School-React-MySql-NodeJs.git`
